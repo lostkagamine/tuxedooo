@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Ubuntu+Mono');
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #2C2F33;
+    color: #FFFFFF;
+}
+
+.are_you_ready/* e e e e e e e e e */ {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.innovator {
+    flex: 1 0 auto;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+}
+
+.killer_machine {
+    word-wrap: break-word;
+    flex: 0 1 auto;
+    color: #FFFFFF;
+    font-size: 60px;
+    font-family: 'Ubuntu Mono';
+}
+
+.cocaine {
+    flex: 0 1 auto;
+    color: #535353;
+    font-family: 'Comfortaa';
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+a:link,
+a:visited {
+    color: #535353;
+}
